@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom"],
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@/*":["src/*"],
+      "@game":["src/game"],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
