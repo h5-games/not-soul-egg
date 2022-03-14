@@ -8,7 +8,7 @@ interface Props extends React.HTMLAttributes<HTMLButtonElement> {
 const Button = ({ className, type = 'default', ...props }: Props) => {
   return (
     <button
-      className={`${styles.button} rc-button-${type} ${className || ''}`}
+      className={`${styles.button} button-${type} ${className || ''}`}
       {...props}
     />
   );

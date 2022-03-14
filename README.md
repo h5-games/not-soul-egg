@@ -1,10 +1,6 @@
 # react-app
 
-Typescript+React 初始化项目，配置简易 Webpack。
-
-## 前言
-
-> 项目默认配置有 eslint 如果不需要自行移除，src 目录中有建议 demo 可供初学，有问题欢迎探讨。
+H5 小游戏，我不是魂蛋。
 
 ## 安装依赖
 
