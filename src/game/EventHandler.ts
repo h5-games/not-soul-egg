@@ -1,5 +1,8 @@
-import { SoulEggEvents } from './events';
+import { SoulEggEvent } from './events';
 
 class EventHandler {
-  constructor(public events: SoulEggEvents) {}
+  constructor(config: SoulEggEvent) {}
+  select() {}
 }
+
+export default EventHandler;
